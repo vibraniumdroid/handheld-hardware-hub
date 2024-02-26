@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- hhb_home.html -->
+    <!-- Abdallah Abuhamda -->
+    <!-- 02/24/2024 -->
+    
+    <title>Handheld Hardware Hub</title>
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" href="hhb_styles.css">
+    <link rel="stylesheet" href="hhb_global.css">
+    <!-- Link to js function -->
+    <script src="fetchAndDisplayDevice.js"></script>
+</head>
+<body>
+    
+<!-- Navigation Bar -->
+<header class="custom-navbar">
+    <div class="container">
+        <div class="logo">
+            <img src="hhb_logo.png" alt="Handheld Hardware Hub Logo">
+            <span>Handheld Hardware Hub</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="hhb_home.html">Home</a></li>
+            <li><a href="hhb_devices.html">Devices</a></li>
+            <li><a href="hhb_comparison.html">Comparison</a></li>
+            <li><a href="hhb_reviews.html">Reviews</a></li>
+            <li><a href="hhb_news.html">News</a></li>
+            <li><a href="hhb_resources.html">Resources</a></li>
+            <li><a href="hhb_about.html">About</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<!-- Main Content -->
+<main>
+    <!-- Call fetchAndDisplayDevice for the featured device -->
+    <script>fetchAndDisplayDevice('rp4', 'image', 'manufacturer', 'name');</script>
+    
+    <!-- Call fetchAndDisplayDevice for additional devices -->
+    <script>fetchAndDisplayDevice('rp4p', 'image', 'manufacturer', 'name');</script>
+    <script>fetchAndDisplayDevice('odin2', 'image', 'manufacturer', 'name'); </script>
+</main>
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Handheld Hardware Hub. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
