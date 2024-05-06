@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- hhb_submissions.html -->
+    <!-- Abdallah Abuhamda -->
+    <!-- 04/26/2024 -->
+    
+    <link rel="icon" href="/assets/images/hhb_logo.ico" type="image/x-icon">
+
+    <title>Handheld Hardware Hub</title>
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" href="/styles/hhb_global.css">
+    <link rel="stylesheet" href="/styles/hhb_doc_styles.css">
+    <link rel="stylesheet" href="/styles/hhb_submission_styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="custom-navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="/assets/images/hhb_logo.png" alt="Handheld Hardware Hub Logo">
+                <span>Handheld Hardware Hub</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/hhb_home.html">Home</a></li>
+                <li><a href="/hhb_devices.html">Devices</a></li>
+                <li><a href="/hhb_submissions.html">Submissions</a></li>
+                <li><a href="/hhb_reviews.html">Reviews</a></li>
+                <li><a href="/hhb_news.html">News</a></li>
+                <li><a href="/hhb_resources.html">Resources</a></li>
+                <li><a href="/hhb_about.html">About</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Submissions -->
+    <h2>Submissions</h2>
+    <h3>Add Entries to the Database!</h3>
+
+    <p>Enter device information here to automatically generate a .json that can be added to the database. Then, submit your .json, along with a device image in .png or .jpg format, at HandheldHardwareHub@gmail.com</p>
+
+    <form id="submissionForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="manufacturer">Manufacturer:</label>
+        <input type="text" id="manufacturer" name="manufacturer" required><br><br>
+        
+        <label for="processor">Processor:</label>
+        <input type="text" id="processor" name="processor" required><br><br>
+        
+        <label for="ram">RAM:</label>
+        <input type="text" id="ram" name="ram" required><br><br>
+        
+        <label for="storage">Storage:</label>
+        <input type="text" id="storage" name="storage" required><br><br>
+        
+        <label for="screen_size">Screen Size:</label>
+        <input type="text" id="screen_size" name="screen_size" required><br><br>
+        
+        <label for="screen_resolution">Screen Resolution:</label>
+        <input type="text" id="screen_resolution" name="screen_resolution" required><br><br>
+        
+        <label for="form_factor">Form Factor:</label>
+        <input type="text" id="form_factor" name="form_factor" required><br><br>
+        
+        <label for="battery_capacity">Battery Capacity:</label>
+        <input type="text" id="battery_capacity" name="battery_capacity" required><br><br>
+        
+        <label for="image">Image File Name:</label>
+        <input type="text" id="image" name="image" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- JavaScript for form submission and JSON generation -->
+    <script src="/functions/submissionScript.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Handheld Hardware Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

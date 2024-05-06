@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- hhb_home.html -->
+    <!-- hhb_news.html -->
     <!-- Abdallah Abuhamda -->
-    <!-- 04/26/2024 -->
+    <!-- 03/31/2024 -->
     
     <link rel="icon" href="/assets/images/hhb_logo.ico" type="image/x-icon">
 
     <title>Handheld Hardware Hub</title>
-    <!-- Link to style sheets -->
+    <!-- Link to style sheet -->
     <link rel="stylesheet" href="/styles/hhb_global.css">
     <link rel="stylesheet" href="/styles/hhb_doc_styles.css">
-    <link rel="stylesheet" href="/styles/hhb_styles.css">
+    <link rel="stylesheet" href="/styles/hhb_article_styles.css">
 
-    <!-- Link to js functions -->
+    <!-- Link to js function -->
     <script src="functions/deviceArticleEventListeners.js"></script>
-    <script src="functions/fetchAndDisplayDevice.js"></script>
     <script src="functions/fetchAndDisplayArticle.js"></script>
 </head>
 <body>
@@ -45,23 +44,17 @@
 
 <!-- Main Content -->
 <main>
-    <h2>Homepage</h2>
-    <h3>News & Reviews</h3>
+    <h2>In the News</h2>
+    <h3>Your Bank Account's New Worst Enemy</h3>
     <section class="article-section">
-        <script>fetchAndDisplayArticle('mmr', 'image', 'title', 'date');</script>
         <script>fetchAndDisplayArticle('rg35xx_2024', 'image', 'title', 'date');</script>   
         <script>fetchAndDisplayArticle('rp4_trigger', 'image', 'title', 'date');</script>
-         
     </section>
-    <h3>Featured Devices</h3>
-    <section class="device-section">
-      <script>fetchAndDisplayDevice('rp4', 'image', 'manufacturer', 'name');</script>
-      <script>fetchAndDisplayDevice('rp4p', 'image', 'manufacturer', 'name');</script>
-      <script>fetchAndDisplayDevice('odin2', 'image', 'manufacturer', 'name'); </script>
-      <script>fetchAndDisplayDevice('odin', 'image', 'manufacturer', 'name'); </script>
-      <script>fetchAndDisplayDevice('mm', 'image', 'manufacturer', 'name'); </script>
+    <section class="device-section"></section>
+
     </section>
-</main>  
+
+  </main>  
 
 
 
