@@ -45,7 +45,9 @@ Key priorities for future development:
 
 6. **Mobile Layout Development**: Developing a responsive mobile layout to ensure optimal viewing and usability for visitors accessing the Handheld Hardware Hub from smartphones and tablets.
 
-7. **Backend Infrastructure Enhancement**: Transitioning from JavaScript functions and .json files to a PHP and MySQL database backend to improve scalability and efficiency in managing site content and user data.
+7. **Article Submission Feature**: Implementing a feature for users to submit articles related to handheld gaming, expanding the site's content and fostering community engagement.
+
+8. **Backend Infrastructure Enhancement**: Transitioning from JavaScript functions and .json files to a PHP and MySQL database backend to improve scalability and efficiency in managing site content and user data.
 
 ## Images
 
