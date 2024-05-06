@@ -1,0 +1,13 @@
+{
+    "name": "Odin",
+    "manufacturer": "Ayn",
+    "processor": "Qualcomm Snapdragon 845",
+    "ram": "4GB LPDDR4x / 8GB LPDDR4x",
+    "storage": "64GB / 128GB / 256GB",
+    "screen_size": "5.98 inches",
+    "screen_resolution": "1080x1920",
+    "form_factor": "Horizontal",
+    "battery_capacity": "6600mAh",
+    "image": "odin.webp"
+}
+  

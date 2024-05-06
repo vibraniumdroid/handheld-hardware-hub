@@ -1,0 +1,13 @@
+{
+    "name": "Mini+",
+    "manufacturer": "Miyoo",
+    "processor": "ARM Cortex-A7 Dual-Core",
+    "ram": "128MB",
+    "storage": "MicroSd Card (varies)",
+    "screen_size": "3.5 inches",
+    "screen_resolution": "640x480",
+    "form_factor": "Vertical",
+    "battery_capacity": "3000mAh",
+    "image": "mmp.webp"
+}
+  
