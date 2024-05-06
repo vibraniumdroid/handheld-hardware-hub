@@ -1,0 +1,82 @@
+/* hhb_doc_styles.css */
+/* Abdallah Abuhamda */
+/* 03/30/2024 */
+
+/*  
+---------------------------------------
+Text formatting
+---------------------------------------
+*/
+
+/* Global styles for paragraphs and headers */
+
+p:not(footer p):not(.article-container p):not(.device-container p) {
+    font-size: 1rem; 
+    line-height: 1.5; 
+    margin-bottom: 1rem; /* Bottom margin to create space between paragraphs */
+    width: 40%; /* Set width to 100% of container */
+    text-align: left; /* Align text to left */
+    margin-right: 1rem; /* Optional: Add margin between paragraphs */
+    box-sizing: border-box; /* Include padding and border in  width */
+    display: block; /* Ensure paragraphs appear on separate lines */
+    padding: 0.5em 0.25em; /* Minimal padding on  left and right sides */
+}
+
+
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #222222; /* Dark text color for better contrast */
+}
+
+/* Style for h2 */
+h2 {
+    font-size: 2.25rem;
+    background-color: #AB2F19; /* NES red accent color */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on l/r sides */
+    width: 40%; /* Make block width 40% of screen width */
+    margin-bottom: 0;
+}
+
+/* Style for h3 */
+h3 {
+    font-size: 1.25rem;
+    background-color: #232323; /* Dark gray background */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on left and right sides */
+    margin-bottom: 0;
+    width: 20%; /* Make block size match text */
+}
+
+/* Style for h4 */
+h4 {
+    font-size: 0.85rem;
+    background-color: #666666; /* Mid-gray background */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on left and right sides */
+    margin-bottom: 0;
+    width: 10%; /* Make block size match text */
+    
+}
+
+p {
+    color: #ffffff; /* White text color */
+    position: relative; /* Enable positioning for pseudo-element */
+    margin-left: 0.35em;
+  }
+
+  
+p:not(footer p)::after {
+    content: ""; /* Empty content to create element */
+    position: absolute; /* Overlap paragraph content */
+    top: 0;
+    left: 0; /* Align with  top-left corner of paragraph */
+    width: 100%; /* Cover entire width of paragraph */
+    height: 100%; /* Cover entire height of paragraph */
+    background-color: rgba(0, 0, 0, 0.9); /* Translucent black background */
+    opacity: 0.75;
+    z-index: -1; 
+}
+
+

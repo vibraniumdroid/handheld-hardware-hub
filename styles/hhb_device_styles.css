@@ -1,0 +1,67 @@
+/* hhb_device_styles.css */
+/* Abdallah Abuhamda */
+/* 03/31/2024 */
+
+/*
+---------------------------------------
+Device designs
+---------------------------------------
+*/
+
+/* Target container for device information */
+.device-container {
+    width: 30%; /* Adjust width to fit two devices in a row */
+    box-sizing: border-box;
+    padding: 1em 0.75em 1.5em 1.5em;  /* Adjust right padding to align */
+    border: 0.250em solid #888888; /* Light border */
+    margin: 1.5em 1em 1em 1.25em;  /* Individual margin values */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    background-color: #232323; /* Dark gray bkg */
+}
+
+/* Target images inside device container */
+.device-container img {
+    width: 6.25em; /* image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0.625em;
+    border-radius: 0.25em;
+}
+
+/* Styling for device info */
+.device-container p {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.5em; /* font size */
+    margin-bottom: 0.3125em;
+    color: #ffffff; /* white font */
+}
+
+/* Styling for first paragraph */
+.device-container p:first-child {
+    margin-right: 0.625em;
+}
+
+.device-container p:not(:last-child) {
+    margin-right: 0.3125em;
+}
+
+/* Styles for sections */
+section {
+    margin-bottom: 1rem; /* Add space between sections */
+  }
+  
+/* New style for both section containers to display items side-by-side */
+.device-section {
+    display: flex; /* Inherit display:flex from container */
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    gap: 1em; /* Add gap between items */
+}
+  
+/* For smaller viewports */
+@media screen and (max-width: 768px) {
+    .device-container,
+    .article-container {
+      width: 48%; /* Adjust width to fit one item per row */
+    }
+}
+

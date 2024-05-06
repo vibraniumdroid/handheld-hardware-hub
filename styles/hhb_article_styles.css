@@ -1,0 +1,65 @@
+/* hhb_article_styles.css */
+/* Abdallah Abuhamda */
+/* 03/31/2024 */
+
+/*
+---------------------------------------
+Articles
+---------------------------------------
+*/
+
+/* Article box styling */
+.article-container {
+    width: 30%; /* Adjust width */
+    box-sizing: border-box;
+    padding: 1em 0.75em 1.5em 1.5em; 
+    border: 0.250em solid #888888; /* Light border */
+    margin: 1.5em 1em 1em 1.25em; 
+    display: flex;
+    flex-direction: row; /* Stack elements vertically by default */
+    background-color: #232323; /* Dark gray bkg */
+}
+
+/* Styling for articlep elements */
+.article-container p {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.2em; /* Adjust font size */
+    margin-bottom: 0.3125em;
+    color: #ffffff; /* white font */
+}
+
+.article-container p:last-child {
+    font-size: 1em;
+    margin-top: 3.75em;
+    margin-right: 1.75em;
+    white-space: nowrap;
+}
+
+/* Styling for img */
+.article-container img {
+    width: 6.25em; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0.625em; /* Move image to right */
+    border-radius: 0.25em;
+}
+
+/* Styles for sections */
+section {
+  margin-bottom: 1rem; /* Add space between sections */
+}
+
+/* New style for both section containers to display items side-by-side */
+.device-section,
+.article-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to next line */
+  gap: 1em; /* Add gap between items */
+}
+
+/* For smaller viewports */
+@media screen and (max-width: 768px) {
+  .device-container,
+  .article-container {
+    width: 48%; /* Adjust width for one item/row */
+  }
+}

@@ -1,0 +1,61 @@
+/* hhb_device_open_styles.css */
+/* Abdallah Abuhamda */
+/* 04/26/2024 */
+
+
+.spec-title {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #AB2F19; /* NES Red */
+    margin-top: 0.1em; /* Add space above the element */
+    margin-bottom: 0.1em; /* Add space below the element */
+    padding-left: 0.2em;
+    padding-right: 0.2em; 
+    display: inline-block; /* Set display to inline-block */
+}
+
+/* Styling for device info */
+.device-container p {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-bottom: 0.3125em;
+    color: #ffffff; /* white font */
+}
+
+/* Style for section-1 */
+#section-1 {
+    font-size: 2.25rem;
+    background-color: #AB2F19; /* NES red accent color */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on l/r sides */
+    width: 40%; /* Make block width 40% of screen width */
+    margin-top: 0.5em; /* Add space above the element */
+    margin-bottom: 0.5em; /* Add space below the element */
+}
+
+/* Style for section-2 */
+#section-2 {
+    font-size: 1.25rem;
+    background-color: #232323; /* Dark gray background */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on left and right sides */
+    margin-top: 0.5em; /* Add space above the element */
+    margin-bottom: 0.5em; /* Add space below the element */
+    width: 30%; /* Make block size match text */
+}
+
+/* Style for section-3 and beyond */
+.device-section:not(#section-1):not(#section-2) {
+    font-size: 1.15rem;
+    background-color: #666666; /* Mid-gray background */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on left and right sides */
+    margin-top: 0.5em; /* Add space above the element */
+    margin-bottom: 0.5em; /* Add space below the element */
+    width: 20%; /* Make block size match text */
+}
+
+/* text stays on the same line */
+.device-section p {
+    display: inline;
+}

@@ -1,0 +1,52 @@
+/* hhb_submission_styles.css */
+/* Abdallah Abuhamda */
+/* 04/26/2024 */
+
+/* Form */
+form {
+    margin-top: 20px;
+}
+
+/* Label */
+label {
+    font-weight: bold;
+    color: #FFFFFF; /* White text for better contrast */
+    display: block; /* Display labels as block elements */
+    margin-bottom: 1px; /* Add some space between labels and input fields */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    width: fit-content;
+}
+
+
+/* Input fields */
+input[type="text"] {
+    width: 30%;
+    padding: 2px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: 3px solid #AB2F19;
+    border-radius: 0px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-bottom: 0.3125em;
+    color: #ffffff; /* white font */
+    padding: 10px 20px;
+    background-color: #666666; /* Dark background color*/
+    border-radius: 0; /* Remove rounded corners */
+    border: 0.225em solid #AB2F19; /* border with red color */
+    margin-left: 0.4em;
+}
+
+input[type="submit"]:hover {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-bottom: 0.3125em;
+    color: #ffffff; /* white font */
+    padding: 10px 20px;
+    background-color: #AB2F19; /* Red background color */
+    border-radius: 0; /* Remove rounded corners */
+    border: 0.225em solid #AB2F19; /* border with red color */
+    margin-left: 0.4em;
+}

@@ -1,0 +1,51 @@
+/* hhb_article_open_styles.css */
+/* Abdallah Abuhamda */
+/* 04/26/2024 */
+
+/* Styling for article info */
+.article-container p {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-bottom: 0.3125em;
+    color: #ffffff; /* white font */
+}
+
+/* Style for section-1 */
+#section-1 {
+    font-size: 2.25rem;
+    background-color: #AB2F19; /* NES red accent color */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on l/r sides */
+    width: 45%; /* Make block width 40% of screen width */
+    margin-top: 0.5em; /* Add space above the element */
+    margin-bottom: 0.5em; /* Add space below the element */
+}
+
+/* Style for section-2 */
+#section-2 {
+    font-size: 1.25rem;
+    background-color: #232323; /* Dark gray background */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on left and right sides */
+    margin-top: 0.5em; /* Add space above the element */
+    margin-bottom: 0.5em; /* Add space below the element */
+    width: 35%; /* Make block size match text */
+}
+
+/* Style for section-3 and beyond */
+#section-3 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.15rem;
+    background-color: #111111; /* Mid-gray background */
+    color: #ffffff; /* White text for readability */
+    padding: 0.5em 0.5em; /* Minimal padding on left and right sides */
+    margin-top: 0.5em; /* Add space above the element */
+    margin-bottom: 0.5em; /* Add space below the element */
+    width: 30%; /* Make block size match text */
+}
+
+/* text stays on the same line */
+.article-section p {
+    display: inline;
+}

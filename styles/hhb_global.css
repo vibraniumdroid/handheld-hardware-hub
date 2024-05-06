@@ -1,0 +1,135 @@
+/* hhb_global.css */
+/* Abdallah Abuhamda */
+/* 03/31/2024 */
+
+/*  
+---------------------------------------
+Font designs
+---------------------------------------
+*/
+
+/* Import font */
+/*@import url('https://fonts.googleapis.com/css2?family=Alata&family=Kode+Mono:wght@400..700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+/* Universal body settings */
+body {
+    font-family: 'Pixelify Sans', sans-serif; /* Default font for body/most elements */
+    color: #000000;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    background-image: url('/assets/images/hhb_bk_alt_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom; /* Set background position to bottom */
+    margin: 0; /* Reset default margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Ensure body takes at least full height of viewport */
+}
+
+/* Style p */
+p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: #FFFFFF; /* Link color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; /* Heading color */
+}
+
+/*  
+---------------------------------------
+Navigation bar designs
+---------------------------------------
+*/
+
+/* Reset default margin and padding */
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Target specific elements or their parents */
+.article-container:hover,
+.device-container:hover {
+  background-color: #AB2F19;
+}
+
+
+header {
+    background-color: #232323; 
+    color: #ffffff; 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    padding: 0.125em; 
+}
+.container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align logo and nav links vertically */
+    width: 100%; /* Stretch container to full width */
+}
+
+.logo {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+}
+
+.logo img {
+    width: 3.125em; /* Adjust size of logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0.625em; /* Spacing between logo and text */
+    padding-left: 0.5em;
+}
+
+.nav-links {
+    list-style-type: none; /* Remove default list styles */
+    display: flex; /* Use flexbox for layout */
+    gap: 0.625em; /* Spacing between navigation items */
+    flex-grow: 1; /* Allow navigation list to grow and shrink */
+    justify-content: flex-end; /* Align items to right end */
+    padding-right: 1.25em;
+}
+
+.nav-links li {
+    padding: 0.625em 1.25em; /*  padding to each navigation item */
+    background-color: #666666; /* Dark background color for navigation items */
+    border-radius: 0; /* Remove rounded corners */
+    border: 0.175em solid #AB2F19; /* border with red color */
+}
+
+.nav-links li:hover {
+    background-color: #AB2F19; /* Change background color to red on hover */
+}
+
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Light text color for links */
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #232323;
+    color: #ffffff;
+    padding: 0.5rem 0.5rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    margin-top: 20px; /* Add margin-top to create space */
+}
+
+
+
+footer p {
+    font-family: 'Pixelify Sans', sans-serif;
+}
