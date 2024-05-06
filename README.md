@@ -35,17 +35,17 @@ Key priorities for future development:
 
 1. **JavaScript Function for Device Comparison Feature**: Implementing a JavaScript function to allow users to compare specifications and performance metrics of different handheld devices directly on the website.
 
-2. **Expansion of Device Entries**: Increasing the number of handheld gaming devices featured on the site to offer users a wider selection for exploration and comparison.
+2. **Expansion of Device Entries**: Increasing the number of handhelds featured on the site to offer a wider selection for exploration/comparison.
 
-3. **Content Generation and Revision**: Creating additional articles covering various topics related to handheld gaming, as well as revising and enhancing existing content for clarity and relevance.
+3. **Content Creation/Revision**: Creating additional articles covering various topics related to handheld gaming, as well as revising and enhancing existing content/
 
 4. **Streamlining Device Submission Feature**: Improving the device submission process by eliminating the requirement for manual downloading of .json files, thus simplifying the process for users to contribute device data.
 
-5. **Integration of Disqus Comment Sections**: Embedding Disqus comment sections on each device page to encourage user engagement and facilitate discussion about specific devices.
+5. **Integration of Disqus Comment Sections**: Embedding Disqus comment sections on each device page to encourage user engagement.
 
-6. **Mobile Layout Development**: Developing a responsive mobile layout to ensure optimal viewing and usability for visitors accessing the Handheld Hardware Hub from smartphones and tablets.
+6. **Mobile Layout Development**: Developing a mobile-friendly layout to ensure optimal viewing and usability for all site visitors.
 
-7. **Article Submission Feature**: Implementing a feature for users to submit articles related to handheld gaming, expanding the site's content and fostering community engagement.
+7. **Article Submission Feature**: Implementing a feature for users to submit articles related to handheld gaming, expanding the site's content.
 
 8. **Backend Infrastructure Enhancement**: Transitioning from JavaScript functions and .json files to a PHP and MySQL database backend to improve scalability and efficiency in managing site content and user data.
 
